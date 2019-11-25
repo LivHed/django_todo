@@ -32,7 +32,8 @@ SECRET_KEY = '3)kmesk-5tz%nm96jr@!xem-m-vg&ar5ix%b3i+c=&-g*xz&f@'
 DEBUG = development
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),
-                os.environ.get('HOSTNAME')]
+                os.environ.get('HOSTNAME'),
+                'caf53bdaff8f4995a335156200e96514.vfs.cloud9.us-east-1.amazonaws.com']
 
 
 # Application definition
